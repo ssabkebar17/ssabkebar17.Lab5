@@ -1,15 +1,14 @@
-"use strict"
+"use strict";
 //Q1
 function max(x1, x2){
-      if (typeof x1 !=="number"|| typeof x2 !=="number")
-       return"both parameters must be number type"
+      // if (typeof x1 !=="number"|| typeof x2 !=="number")
+      //  return"both parameters must be number type"
       if(x1>x2) return x1;
-     else if(x2>x1) return x2;
-     else if(x1===x2)
-      return x1; 
+     else return x2;
+     
 }
 
-
+console.log(max(true,4))
 
 //Q2 
 console.log(".........//Q2.........")
@@ -191,7 +190,7 @@ function printFibo(n){
 
 }
 
-printFibo(10) ;
+
 
 //Q14
 console.log(".........//Q14.........")
